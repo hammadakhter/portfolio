@@ -1,0 +1,465 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+    background-color: 141416;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 33%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%
+}
+
+.navbar{
+    display: flex;
+}
+
+.navlist{
+    background-color: black;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.navlist li{
+   list-style: none;
+   padding: 4%;
+}
+
+.navlist li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navlist li a:hover{
+    color: aqua; 
+}
+
+.rightnavbar{
+    background-color: black;
+   width: 50%;
+   text-align: right;
+}
+
+.rightnavbar i{
+    display: flex;
+    justify-content: center;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    float: right;
+    padding: 4%;
+}
+i:hover{
+    color: rgb(0, 213, 255);
+
+}
+
+
+.main{
+    width: 100%;
+    height: 107vh;
+    background-color: rgb(34, 31, 31);
+    color: white;
+    z-index: 1;
+}
+
+h1{
+    position: relative;
+    right: 5%;
+    padding: 13%;
+    z-index: 1;
+}
+
+#h1{
+    color: grey;
+}
+
+.name{
+    color: white;
+    font-size: 150%;
+    z-index: 1;
+}
+
+.main #h1 .name b{
+    z-index: 1;
+}
+
+.name:hover{
+    color: aqua;
+}
+
+.boldunderline{
+    color: yellow;
+}
+
+.mainpara{
+    position: relative;
+    bottom: 160px;
+    left: 8%;
+    color: rgb(226, 211, 211);
+    z-index: 1;
+}
+
+.blankcricle{
+    width: 37%;
+    height: 80vh;
+    background-color: #181515;
+    border-radius: 50%;
+    position: relative;
+    left: 15%;
+    bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 770px;
+}
+
+
+.photo img{
+    width: 25%;
+    display: flex;
+    z-index: 1;
+    position: relative;
+    right: 16%;
+    bottom: 9px;
+    border-radius: 50%;
+
+}
+
+
+.same{
+    color: rgb(226, 211, 211) ;
+    position: relative;
+    left: 65%;
+    bottom: 550px;
+    padding: 1%;
+    z-index: 1;
+}
+
+.showmore{
+    color: yellow;
+}
+
+.fa-arrow-right{
+    position: relative;
+    left: 1%;
+    top: 2px;
+}
+
+.fa-arrow-right:hover{
+    color: rgb(255, 162, 0);
+}
+
+.fa-facebook{
+    color: yellow;
+    left: 66%;
+    position: relative;
+    bottom: 520px;
+    z-index: 1;
+}
+
+.fa-facebook:hover{
+    color: rgb(255, 196, 3);
+}
+
+.fa-twitter{
+    color: yellow;
+    left: 67%;
+    position: relative;
+    bottom: 520px;
+    z-index: 1;
+}
+
+.fa-twitter:hover{
+    color: rgb(255, 196, 3);
+}
+
+.fa-instagram{
+    color: yellow;
+    left: 68%;
+    position: relative;
+    bottom: 520px;
+    z-index: 1;
+}
+
+.fa-instagram:hover{
+    color: rgb(255, 196, 3);
+}
+
+.fa-pinterest{
+    color: yellow;
+    left: 69%;
+    position: relative;
+    bottom: 520px;
+    z-index: 1;
+}
+
+.fa-pinterest:hover{
+    color: rgb(255, 196, 3);
+}
+
+
+.logoss{
+    width: 70%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 60px;
+    left: 14%;
+    box-shadow: 9px 9px 9px 9px;  
+    z-index: 1;
+    padding: 2%;
+    background-color: #202021;
+}
+
+
+.logosd{
+
+    width: 15%;
+    padding:1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid #000000;     
+    background-color: #38363f;
+   
+}
+
+
+.meta{
+    width: 25%;
+    height: 5vh;
+
+}
+
+.google{
+    width: 25%;
+    height: 5vh;
+}
+
+
+.linkedin{
+    width: 25%;
+    height: 5vh;
+}
+
+
+.slacked{
+    width: 25%;
+    height: 5vh;
+}
+
+
+.project{
+    width: 100%;
+    height: 200vh;
+    background-color: #141416;
+    position: relative;
+    bottom: 130px;
+}
+
+.Needs{
+    color: white;
+}
+
+.needspara{
+    color: rgb(226, 211, 211);
+    position: relative;
+    bottom: 190px;
+    left: 8%;
+}
+
+.two{
+    color: yellow;
+    position: relative;
+    bottom: 80px;
+    left: 10%;
+
+}
+.twopara{
+    color: rgb(226, 211, 211);
+    position: relative;
+    bottom: 70px;
+    left: 10%;
+    
+}
+
+.three{ 
+    color: yellow;
+    position: relative;
+    bottom: 10px;
+    left: 10%;
+
+
+}
+
+.threepara{
+    color: rgb(226, 211, 211);
+    position: relative;
+    left: 10%;
+
+}
+
+.hundered{
+    color: yellow;
+    position: relative;
+    bottom: 194px;
+    left: 30%;
+}
+
+.hunderedpara{
+    color: rgb(226, 211, 211);
+    position: relative;
+    bottom: 190px;
+    left: 30%;
+}
+
+.ten{
+    color: yellow;
+    position: relative;
+    left: 30%;
+    bottom: 124px;
+}
+
+.tenpara{
+    color: rgb(226, 211, 211);
+    position: relative;
+    left: 30%;
+    bottom: 120px;
+}
+
+
+.uilogo{
+    width: 11%;
+    height: 11vh;
+    position: relative;
+    left: 65%;
+    bottom: 650px;
+}
+
+.uiheading{
+    color: white;
+    position: relative;
+    left: 77%;
+    bottom: 720px;
+}
+
+.uipara{
+    color: rgb(226, 211, 211);
+    position: relative;
+    left: 77%;
+    bottom: 720px;
+    font-size: 15px;
+}
+
+.rightarrow{
+    color: yellow;
+    font-size: 20px;
+    position: relative;
+    left: 10%; 
+    z-index: 1;   
+}
+
+.underline{
+    position: relative;
+    bottom: 690px;
+    width: 30%;
+    left: 65%;
+}
+
+.frontendlogo{
+    width: 11%;
+    height: 80px;
+    position: relative;
+    left: 65%;
+    bottom: 650px;
+
+}
+
+.fronthead{
+    color: white;
+    position: relative;
+    left: 77%;
+    bottom: 720px;
+}
+
+.frontpara{
+    color: rgb(226, 211, 211);
+    position: relative;
+    left: 77%;
+    bottom: 720px;
+    font-size: 15px;
+
+
+}
+
+.underline1{
+    position: relative;
+    bottom: 690px;
+    width: 30%;
+    left: 65%;
+}
+
+
+.mobileapplogo{
+    width: 11%;
+    height: 80px;
+    position: relative;
+    left: 65%;
+    bottom: 650px;
+}
+
+.mobilehead{
+    color: white;
+    position: relative;
+    left: 77%;
+    bottom: 720px;
+
+}
+
+.mobilepara{
+    color: rgb(226, 211, 211);
+    position: relative;
+    left: 77%;
+    bottom: 720px;
+    font-size: 15px;
+}
+
+.underline2{
+    position: relative;
+    bottom: 690px;
+    width: 30%;
+    left: 65%;
+}
+
+
+
+
+
+
+
